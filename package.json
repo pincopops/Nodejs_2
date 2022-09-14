@@ -1,7 +1,7 @@
 {
   "name": "nodejs_2",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "engines": {
     "node": ">=16"
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pincopops/Nodejs_2/issues"
   },
-  "homepage": "https://github.com/pincopops/Nodejs_2#readme"
+  "homepage": "https://github.com/pincopops/Nodejs_2#readme",
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
 }
