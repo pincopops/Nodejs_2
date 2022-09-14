@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pincopops/Nodejs_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pincopops/Nodejs_2/issues"
+  },
+  "homepage": "https://github.com/pincopops/Nodejs_2#readme"
+}
