@@ -6,10 +6,13 @@ import "express-async-errors";
 const app = express();
 
 //chiamiamo il server con una chiamata di tipo GET e spediamo una risposta 
-app.get("/planets", (request, response) => {
+app.get("/iPhones", (request, response) => {
     response.json([
-        { name: "Mercury" },
-        { name: "Venus" }
+        { name: "iPhone XS" },
+        { name: "iPhone 11" },
+        { name: "iPhone 12" },
+        { name: "iPhone 13" },
+        { name: "iPhone 14" },
     ]);
 });
 
