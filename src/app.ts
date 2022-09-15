@@ -6,8 +6,11 @@ import "express-async-errors";
 const app = express();
 
 //chiamiamo il server con una chiamata di tipo GET e spediamo una risposta 
-app.get("/", (request, response) => {
-    response.send("Server's up!");
+app.get("/planets", (request, response) => {
+    response.json([
+        { name: "Mercury" },
+        { name: "Venus" }
+    ]);
 });
 
 export default app;
